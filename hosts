@@ -49,3 +49,5 @@ LAMP ansible_host=10.128.0.11
 Tomcat ansible_host=10.128.0.14
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
+ansible_user=ansible  
+ansible_ssh_private_key_file=/home/ansible/.ssh/authorized_keys
