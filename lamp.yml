@@ -1,0 +1,9 @@
+---
+- hosts: servers
+  remote_user: samirshahubs
+  become: yes
+  become_method: sudo
+  roles:
+   - apache
+   - nginx
+   - wordpress
